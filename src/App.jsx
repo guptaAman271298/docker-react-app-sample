@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Dockerized React App With Nginx For Production.</h1>
+      <h1>Strong minds are generally build when your mind is used to of handling uncomforts.</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
