@@ -17,6 +17,7 @@ function App() {
         </a>
       </div>
       <h1>This is just for checking of continuous deployment. Learning from Shubham....</h1>
+      <h2>This is just for checking of continuous deployment. Learning from Shubham....</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
