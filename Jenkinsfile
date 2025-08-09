@@ -39,14 +39,14 @@ pipeline{
         success {
             emailtext(
                 subject: "Pipeline Successfull!!",
-                body: "The pipeline was successful. Check the build."
+                body: "The pipeline was successful. Check the build.",
                 to: "gupta.aman27121998@gmail.com"
             )
         }
         failure {
             emailtext(
                 subject: "Pipeline failed!!",
-                body: "The pipeline was failed. Check the build."
+                body: "The pipeline was failed. Check the build.",
                 to: "gupta.aman27121998@gmail.com"
             )
         }
