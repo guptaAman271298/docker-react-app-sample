@@ -37,13 +37,13 @@ pipeline{
     }
     post {
         success {
-            emailtext body: "The pipeline was successful. Check the build.",
+            emailext body: "The pipeline was successful. Check the build.",
                 subject: "Pipeline Successfull!!",
                 to: "gupta.aman27121998@gmail.com"
             
         }
         failure {
-            emailtext body: "The pipeline was failed. Check the build.",
+            emailext body: "The pipeline was failed. Check the build.",
                 subject: "Pipeline failed!!",
                 to: "gupta.aman27121998@gmail.com"
             
