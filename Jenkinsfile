@@ -39,13 +39,13 @@ pipeline{
         success {
             emailext body: "The pipeline was successful. Check the build.",
                 subject: "Pipeline Successfull!!",
-                to: "gupta.aman27121998@gmail.com"
+                to: "aman.developer1008@gmail.com"
             
         }
         failure {
             emailext body: "The pipeline was failed. Check the build.",
                 subject: "Pipeline failed!!",
-                to: "gupta.aman27121998@gmail.com"
+                to: "aman.developer1008@gmail.com"
             
         }
     }
